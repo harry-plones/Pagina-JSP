@@ -47,6 +47,7 @@ public class Registro extends HttpServlet {
             out.println("<body>");
             out.println("<h1>Usuario Registrado</h1>");
             out.println("Bienvenido " + us.getUser());
+            out.println("<br><form action='index.jsp'><input type='submit' value='Regresar'></form>");
             out.println("</body>");
             out.println("</html>");
         }
